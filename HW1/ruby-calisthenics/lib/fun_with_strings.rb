@@ -39,5 +39,3 @@ end
 class String
   include FunWithStrings
 end
-
-'scream cars for four scar creams'.anagram_groups
