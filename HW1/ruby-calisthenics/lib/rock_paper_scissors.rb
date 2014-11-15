@@ -21,17 +21,6 @@ class RockPaperScissors
 
 end
 
-p RockPaperScissors.tournament_winner([
-    [
-        [ ["Armando", "P"], ["Dave", "S"] ],
-        [ ["Richard", "R"],  ["Michael", "S"] ],
-    ],
-    [
-        [ ["Allen", "S"], ["Omer", "P"] ],
-        [ ["David E.", "R"], ["Richard X.", "P"] ]
-    ]
-])
-
 # In a game of rock-paper-scissors, each player chooses to play Rock (R), Paper (P), or Scissors (S). The rules are: Rock breaks Scissors, Scissors cuts Paper, but Paper covers Rock.
 
 # In a round of rock-paper-scissors, each player's name and strategy is encoded as an array of two elements
