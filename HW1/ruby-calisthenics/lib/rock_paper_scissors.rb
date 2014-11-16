@@ -16,7 +16,7 @@ class RockPaperScissors
   def self.tournament_winner(tournament)
     # YOUR CODE HERE
     return winner(tournament[0], tournament[1]) if tournament[0][0].class == String
-    w = winner tournament_winner(tournament[0]), tournament_winner(tournament[1])
+    winner tournament_winner(tournament[0]), tournament_winner(tournament[1])
   end
 
 end
